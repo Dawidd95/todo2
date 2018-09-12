@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #B4C1CC; }
+
+.container {
+  width: 100%;
+  height: 100%; }
+
+.app {
+  width: 80%;
+  height: 100%;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.app__header {
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex; }
+
+.header__intro {
+  width: 65%;
+  height: 98.5%;
+  border-bottom: 4px solid #20B1EC;
+  display: flex;
+  flex-direction: column; }
+
+.intro__menu {
+  margin-top: 20px;
+  margin-left: 30px; }
+
+.intro__title {
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 50px;
+  font-family: 'Quicksand';
+  color: white; }
+
+.intro__data {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Quicksand';
+  color: rgba(255, 255, 255, 0.6); }
+
+.header__statistics {
+  width: 35%;
+  height: 100%;
+  margin-left: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.statistics {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.note-amount__text, .done-amount__text {
+  font-size: 20px;
+  font-family: 'Quicksand';
+  color: white; }
+
+.note-amount__count, .done-amount__count {
+  margin-top: 80px;
+  padding-right: 10px;
+  font-size: 40px;
+  font-family: 'Quicksand';
+  color: white;
+  display: flex;
+  justify-content: flex-end; }
+
+.statistics__percent-done {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Quicksand';
+  color: rgba(255, 255, 255, 0.6); }
+
+.app__body {
+  width: 100%;
+  height: 100%;
+  background-color: white; }
+
+.body__note {
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 2px solid #F3F3F3; }
+
+.note__title {
+  width: 80%;
+  height: 40%;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Quicksand";
+  overflow: hidden;
+  display: flex;
+  align-items: center; }
+
+.note__text {
+  width: 80%;
+  height: 55%;
+  font-weight: 600;
+  font-family: "Quicksand";
+  color: #808080;
+  overflow: hidden; }
+
+/*# sourceMappingURL=main.css.map */
